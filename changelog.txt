@@ -1,4 +1,6 @@
-[B]2.0.5~nightly2[/B]
+[B]2.0.5~nightly3[/B]
+- Automatisch Fortsetzen
+- Trakt Fortsetzungspunkt (Bookmark), derzeit deaktiviert
 - Add Funktion nur Premiumquellen (Bezahlquellen) anzeigen
 - Schnellsuche Eingebaut
 
