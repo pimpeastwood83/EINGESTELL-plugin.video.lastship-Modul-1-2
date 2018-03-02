@@ -1,4 +1,5 @@
-[B]2.0.5~nightly4[/B]
+[B]2.0.5~nightly5[/B]
+- add streamdream Update
 - kinox und HDStreams, default auf AUS
 - Automatisch Fortsetzen
 - Trakt Fortsetzungspunkt (Bookmark), derzeit deaktiviert
