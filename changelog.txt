@@ -1,4 +1,4 @@
-[B]2.0.5~nightly5[/B]
+[B]2.0.5[/B]
 - add streamdream Update
 - kinox und HDStreams, default auf AUS
 - Automatisch Fortsetzen
