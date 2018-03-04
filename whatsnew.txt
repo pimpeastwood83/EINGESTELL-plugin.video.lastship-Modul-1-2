@@ -8,10 +8,11 @@ Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 Für die Seiten Serienstream, Seriesever und Alluc ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
-02.03.2018
-kinow und HDStreams in den Einstellungen per Standard deaktiviert (captcha), bei manchen Usern gehts jedoch
-Problem mit Foxx
-
+04.03.2018
+FAQ wurde Überarbeitet:
+Runderneuerung der FAQ: Übersichtlicher gestalltet
+Kat. Konto wurde Umfangreich ergänzt
+Kat. Trakt wurde ergänzt
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
