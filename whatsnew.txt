@@ -44,6 +44,14 @@ Kat. Trakt wurde ergänzt
   
 [B][COLOR lime]Changelog script.module.lastship[/COLOR][/B]
 
+[B]1.0.6.3[/B]
+  06.03.2018
+- Bug Fix, Downgrade auf 1.0.6.1 Stand
+
+[B]1.0.6.2[/B]
+  06.03.2018
+- Fix Foxx
+
 [B]1.0.6.1[/B] 
   05.03.2018
 - Fix Streamdream TV-Shows 
