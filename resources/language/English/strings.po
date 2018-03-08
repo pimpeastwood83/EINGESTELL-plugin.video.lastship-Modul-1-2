@@ -327,6 +327,10 @@ msgctxt "#32074"
 msgid "[B]HELP[/B]"
 msgstr ""
 
+msgctxt "#32075"
+msgid "DevUpdate"
+msgstr "Nightly Update"
+
 msgctxt "#32301"
 msgid "Enabled"
 msgstr ""
