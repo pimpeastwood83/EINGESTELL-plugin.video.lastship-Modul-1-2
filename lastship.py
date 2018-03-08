@@ -33,6 +33,7 @@ from resources.lib.modules import trakt
 from resources.lib.modules import sources
 from resources.lib.modules import downloader
 from resources.lib.modules import libtools
+from resources.lib.modules import updateManager
 from resources.lib.indexers import navigator
 from resources.lib.indexers import movies
 from resources.lib.indexers import channels
@@ -383,3 +384,6 @@ elif action == 'updateLibrary':
 
 elif action == 'service':
     libtools.libepisodes().service()
+
+elif action == 'devUpdateNavigator':
+    updateManager.updateLastShip()

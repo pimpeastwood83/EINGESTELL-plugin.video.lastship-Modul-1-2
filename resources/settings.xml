@@ -3,7 +3,7 @@
     <category label="32310">
         <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.lastship/?action=artwork)" visible="!System.HasAddon(script.lastship.artwork)" />
         <setting type="lsep" label="Funktionen und Einstellungen" />
-	<setting id="appearance.1" type="select" label="32311" values="Lastship|Lastship2|Exodus|Exuary" default="Lastship" visible="System.HasAddon(script.lastship.artwork)" />
+	    <setting id="appearance.1" type="select" label="32311" values="Lastship|Lastship2|Exodus|Exuary" default="Lastship" visible="System.HasAddon(script.lastship.artwork)" />
         <setting id="scrapers.timeout.1" type="slider" label="32312" default="20" range="10,60" option="int" />
         <setting id="trakt.user" type="text" default="" visible="false" />
         <setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
@@ -13,46 +13,47 @@
         <setting id="flatten.tvshows" type="bool" label="32317" default="false" />
         <setting id="fanart" type="bool" label="32318" default="true" />
         <setting id="showunaired" type="bool" label="32570" default="true" />
-	<setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
+	    <setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
         <setting id="hidecinema" type="bool" label="32571" default="false" />
-	<setting id="filter.movies.byyear" type="bool" label="32700" default="false" />
+	    <setting id="filter.movies.byyear" type="bool" label="32700" default="false" />
         <setting type="lsep" label="32701" visible="eq(-1,true)" />
-	<setting id="movies.byyear.from" type="slider" label="32702" default="1980" range="1900,2017" option="int" visible="eq(-2,true)" />
-	<setting id="movies.byyear.to" type="slider" label="32703" default="2017" range="1900,2018" option="int" visible="eq(-3,true)" />
-	<setting type="lsep" label="32319" />
+        <setting id="movies.byyear.from" type="slider" label="32702" default="1980" range="1900,2017" option="int" visible="eq(-2,true)" />
+        <setting id="movies.byyear.to" type="slider" label="32703" default="2017" range="1900,2018" option="int" visible="eq(-3,true)" />
+        <setting type="lsep" label="32319" />
         <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="1" />
         <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-11,)" />  
         <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" visible="eq(-12,)" />
         <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-13,)" />
         <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
         <setting id="search.quick" type="enum" label="32708" lvalues="32302|32301" default="0" />
-	<setting type="lsep" label="Trakt Bibliothek - Automatische Synchronisierung" />
+	    <setting type="lsep" label="Trakt Bibliothek - Automatische Synchronisierung" />
         <setting id="autoTraktOnStart" type="bool" label="Synchronisierung bei Kodi Start" default="False" />
         <setting id="schedTraktTime" type="slider" label="Geplante Updates jede - Stunde/n" default="0" range="0,24" option="int" />
         <setting type="lsep" label="0 Geplantes Update deaktiviert" />
+        <setting id="DevUpdate" type="bool" label="32075" default="false" />
     </category>
     <category label="32330">
         <setting id="hosts.mode" type="enum" label="32331" lvalues="32332|32333|32334" default="1" />
         <setting id="progress.dialog" type="enum" label="32335" lvalues="32336|32337" default="0" />
         <setting id="prem.identify" type="enum" label="32588" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="0" />
         <setting id="preemptive.termination" type="bool" label="Streamsuche vorzeitig abbrechen" default="False" visible="false"/>
-	<setting id="preemptive.limit" type="slider" label="Abbruch Limit Stream Suche" default="10" range="1,50" option="int" visible="false" />
-	<setting type="lsep" label="32338" />
+        <setting id="preemptive.limit" type="slider" label="Abbruch Limit Stream Suche" default="10" range="1,50" option="int" visible="false" />
+        <setting type="lsep" label="32338" />
         <setting id="hosts.quality" type="enum" label="32339" values="4K|1440p|1080p|720p|480p" default="0" />
         <setting id="autoplay.sd" type="bool" label="32340" default="false" />
         <setting id="sources.extrainfo" type="bool" label="32587" default="true" />
         <setting id="HEVC" type="bool" label="32363" default="true" />
         <setting id="hosts.captcha" type="bool" label="32341" default="true" />
         <setting id="hosts.sort.provider" type="bool" label="32342" default="false" />
-	<setting id="debrid.only" type="bool" label="Nur Premium Quellen anzeigen" default="false" />
+	    <setting id="debrid.only" type="bool" label="Nur Premium Quellen anzeigen" default="false" />
         <setting type="lsep" label="32343" />
         <setting id="bookmarks" type="bool" label="32344" default="true" />
-	<setting id="bookmarks.trakt" type="bool" label="Trakt Fortsetzungspunkt" default="false" enable="!eq(-1,false)" visible="false" />
-	<setting id="bookmarks.auto" type="bool" label="Automatisch Fortsetzen" default="false" enable="!eq(-2,false)" />
+        <setting id="bookmarks.trakt" type="bool" label="Trakt Fortsetzungspunkt" default="false" enable="!eq(-1,false)" visible="false" />
+        <setting id="bookmarks.auto" type="bool" label="Automatisch Fortsetzen" default="false" enable="!eq(-2,false)" />
         <setting type="lsep" label="32372" />
         <setting id="crefresh" type="bool" label="32373" default="false" />
-    </category>
-    <category label="32345">
+        </category>
+        <category label="32345">
 		<setting id="provider.library" type="bool" label="32704" default="true" />
         <setting type="sep" />
 		<setting label="Deutsch" type="lsep" />
