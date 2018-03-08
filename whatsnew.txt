@@ -8,10 +8,13 @@ Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 Für die Seiten Serienstream, Seriesever und Alluc ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
-02.03.2018
-kinow und HDStreams in den Einstellungen per Standard deaktiviert (captcha), bei manchen Usern gehts jedoch
-Problem mit Foxx
-
+05.03.2018
+Streamdream: Probleme bei bestimmten Serien. Bitte Prüfen, ob die Links Online per Filecrypt geschützt sind. Ist dies der Fall, werden diese im Addon auch nicht berücksichtigt 
+04.03.2018
+FAQ wurde Überarbeitet:
+Runderneuerung der FAQ: Übersichtlicher gestalltet
+Kat. Konto wurde Umfangreich ergänzt
+Kat. Trakt wurde ergänzt
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
@@ -41,6 +44,18 @@ Problem mit Foxx
   
 [B][COLOR lime]Changelog script.module.lastship[/COLOR][/B]
 
+[B]1.0.6.3[/B]
+  06.03.2018
+- Bug Fix, Downgrade auf 1.0.6.1 Stand
+
+[B]1.0.6.2[/B]
+  06.03.2018
+- Fix Foxx
+
+[B]1.0.6.1[/B] 
+  05.03.2018
+- Fix Streamdream TV-Shows 
+
 [B]1.0.6[/B]   
   02.03.2018
 - add streamdream Update
@@ -54,18 +69,3 @@ Problem mit Foxx
   15.02.2018
 - cinenator entfent
 - Update hdfilme
-
-[B]1.0.4[/B]
-
-- Trakt Bibliothek automatisch Synchronisieren
-- Fix Umlaute Suche	
-- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
-- Update jsunpack.py
-- movies.py
-- tvshows.py
-- libtools optimiert (Fehler Behebung)
-- Update cache.py und navigator.py
-- tata wieder hinzugefügt (nur Filme)
-- Update hdfilme
-- Update hdstreams
-
