@@ -1,3 +1,6 @@
+[B]2.0.6~nightly1[/B]
+- Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag
+
 [B]2.0.5[/B]
 - add streamdream Update
 - kinox und HDStreams, default auf AUS
