@@ -982,3 +982,7 @@ msgstr ""
 msgctxt "#32708"
 msgid "Enable Quick Search"
 msgstr ""
+
+msgctxt "#32709"
+msgid "Search returned empty"
+msgstr "Search returned empty"

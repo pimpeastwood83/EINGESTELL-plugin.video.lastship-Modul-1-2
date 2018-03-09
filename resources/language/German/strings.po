@@ -987,3 +987,7 @@ msgstr "[B]LASTSHIP[/B] : Metadaten Speicher löschen"
 msgctxt "#32708"
 msgid "Enable Quick Search"
 msgstr "Schnelle Suche"
+
+msgctxt "#32709"
+msgid "Search returned empty"
+msgstr "Nichts gefunden"
