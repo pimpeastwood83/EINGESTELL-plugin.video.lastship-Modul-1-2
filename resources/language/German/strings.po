@@ -2,21 +2,6 @@
 # Addon id: plugin.video.lastship
 # Addon Provider: LastShip
 # Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
 # Kr1ss, 2017
 # Viper2k4, 2017
 # Christian Klippel, 2015
