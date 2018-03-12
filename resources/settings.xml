@@ -72,7 +72,7 @@
 		<setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
 		<setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
 		<setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
-		<setting id="provider.movie2k-ac" type="bool" label="MOVIE2K.AC" default="true" />
+		<setting id="provider.movie2k-sh" type="bool" label="MOVIE2K.SH" default="true" />
 		<setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
 		<setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
 		<setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
