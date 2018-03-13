@@ -1,6 +1,5 @@
-
-
 [B]2.0.6~nightly4[/B]
+- add szene-streamz
 - Update manager hinzugefügt (lastship.py, string.po)
 
 [B]2.0.6~nightly3[/B]
