@@ -8,13 +8,8 @@ Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 Für die Seiten Serienstream, Seriesever und Alluc ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
-05.03.2018
-Streamdream: Probleme bei bestimmten Serien. Bitte Prüfen, ob die Links Online per Filecrypt geschützt sind. Ist dies der Fall, werden diese im Addon auch nicht berücksichtigt 
-04.03.2018
-FAQ wurde Überarbeitet:
-Runderneuerung der FAQ: Übersichtlicher gestalltet
-Kat. Konto wurde Umfangreich ergänzt
-Kat. Trakt wurde ergänzt
+13.03.2018
+Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr möglich. Bestehende User können bis zur endgültigen Schließung die Seite weiterhin nutzen
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
