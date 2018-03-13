@@ -1,8 +1,6 @@
-[B]2.0.6~nightly4[/B]
+[B]2.0.6/B]
 - add szene-streamz
 - Update manager hinzugefügt (lastship.py, string.po)
-
-[B]2.0.6~nightly3[/B]
 - Update settings.xml
 - movie2z entfernt (Seite wurde geschlossen)
 - Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag
