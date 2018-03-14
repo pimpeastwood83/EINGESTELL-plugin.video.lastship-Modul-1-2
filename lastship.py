@@ -34,6 +34,7 @@ from resources.lib.modules import sources
 from resources.lib.modules import downloader
 from resources.lib.modules import libtools
 from resources.lib.modules import updateManager
+from resources.lib.modules import source_faultlog as faultlog
 from resources.lib.indexers import navigator
 from resources.lib.indexers import movies
 from resources.lib.indexers import channels
@@ -387,3 +388,7 @@ elif action == 'service':
 
 elif action == 'devUpdateNavigator':
     updateManager.updateLastShip()
+
+elif action == 'showFaultyProvider':
+    infoString = faultlog.getFaultInfoString()
+    control.dialog.ok("Faulty Providers",infoString)
