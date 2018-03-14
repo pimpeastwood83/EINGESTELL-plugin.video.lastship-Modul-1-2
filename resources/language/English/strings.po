@@ -975,3 +975,19 @@ msgstr ""
 msgctxt "#32709"
 msgid "Search returned empty"
 msgstr "Search returned empty"
+
+msgctxt "#32710"
+msgid "Show FaultLogger"
+msgstr "[B]LASTSHIP[/B] : Show deactivated providers"
+
+msgctxt "#32711"
+msgid "Activate FaultLogger"
+msgstr "Deactivate Fault Loggers"
+
+msgctxt "#32712"
+msgid "FaultLogger error amount"
+msgstr "Amount of errors for disable"
+
+msgctxt "#32713"
+msgid "FaultLogger recheck after"
+msgstr "recheck deactivated provider after"
