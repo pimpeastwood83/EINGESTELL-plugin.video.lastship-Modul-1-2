@@ -980,3 +980,19 @@ msgstr "Schnelle Suche"
 msgctxt "#32709"
 msgid "Search returned empty"
 msgstr "Nichts gefunden"
+
+msgctxt "#32710"
+msgid "Show FaultLogger"
+msgstr "[B]LASTSHIP[/B] : Fehlerhafte Provider anzeigen"
+
+msgctxt "#32711"
+msgid "Activate FaultLogger"
+msgstr "Fehlerhafte Provider erkennen"
+
+msgctxt "#32712"
+msgid "FaultLogger error amount"
+msgstr "Anzahl Errors für Deaktivierung"
+
+msgctxt "#32713"
+msgid "FaultLogger recheck after"
+msgstr "Deaktivierten Provider überprüfen nach Stunden"
