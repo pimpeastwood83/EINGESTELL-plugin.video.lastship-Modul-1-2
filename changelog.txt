@@ -1,4 +1,7 @@
-[B]2.0.6/B]
+[B]2.0.7~nighlty1[/B]
+- add Funktion Fehlerhafte Provider erkennen
+
+[B]2.0.6[/B]
 - add szene-streamz
 - Update manager hinzugefügt (lastship.py, string.po)
 - Update settings.xml
