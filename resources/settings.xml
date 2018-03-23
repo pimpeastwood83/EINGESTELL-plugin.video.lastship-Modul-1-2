@@ -3,7 +3,7 @@
     <category label="32310">
         <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.lastship/?action=artwork)" visible="!System.HasAddon(script.lastship.artwork)" />
         <setting type="lsep" label="Funktionen und Einstellungen" />
-	    <setting id="appearance.1" type="select" label="32311" values="Lastship|Lastship2|Exodus|Exuary" default="Lastship" visible="System.HasAddon(script.lastship.artwork)" />
+        <setting id="appearance.1" type="select" label="32311" values="Lastship|Lastship2|Exodus|Exuary" default="Lastship" visible="System.HasAddon(script.lastship.artwork)" />
         <setting id="scrapers.timeout.1" type="slider" label="32312" default="20" range="10,60" option="int" />
         <setting id="trakt.user" type="text" default="" visible="false" />
         <setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
@@ -13,9 +13,9 @@
         <setting id="flatten.tvshows" type="bool" label="32317" default="false" />
         <setting id="fanart" type="bool" label="32318" default="true" />
         <setting id="showunaired" type="bool" label="32570" default="true" />
-	    <setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
+        <setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
         <setting id="hidecinema" type="bool" label="32571" default="false" />
-	    <setting id="filter.movies.byyear" type="bool" label="32700" default="false" />
+        <setting id="filter.movies.byyear" type="bool" label="32700" default="false" />
         <setting type="lsep" label="32701" visible="eq(-1,true)" />
         <setting id="movies.byyear.from" type="slider" label="32702" default="1980" range="1900,2017" option="int" visible="eq(-2,true)" />
         <setting id="movies.byyear.to" type="slider" label="32703" default="2017" range="1900,2018" option="int" visible="eq(-3,true)" />
@@ -26,7 +26,7 @@
         <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-13,)" />
         <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
         <setting id="search.quick" type="enum" label="32708" lvalues="32302|32301" default="0" />
-	    <setting type="lsep" label="Trakt Bibliothek - Automatische Synchronisierung" />
+        <setting type="lsep" label="Trakt Bibliothek - Automatische Synchronisierung" />
         <setting id="autoTraktOnStart" type="bool" label="Synchronisierung bei Kodi Start" default="False" />
         <setting id="schedTraktTime" type="slider" label="Geplante Updates jede - Stunde/n" default="0" range="0,24" option="int" />
         <setting type="lsep" label="0 Geplantes Update deaktiviert" />
@@ -49,51 +49,52 @@
         <setting id="HEVC" type="bool" label="32363" default="true" />
         <setting id="hosts.captcha" type="bool" label="32341" default="true" />
         <setting id="hosts.sort.provider" type="bool" label="32342" default="false" />
-	    <setting id="debrid.only" type="bool" label="Nur Premium Quellen anzeigen" default="false" />
+        <setting id="debrid.only" type="bool" label="Nur Premium Quellen anzeigen" default="false" />
         <setting type="lsep" label="32343" />
         <setting id="bookmarks" type="bool" label="32344" default="true" />
         <setting id="bookmarks.trakt" type="bool" label="Trakt Fortsetzungspunkt" default="false" enable="!eq(-1,false)" visible="false" />
         <setting id="bookmarks.auto" type="bool" label="Automatisch Fortsetzen" default="false" enable="!eq(-2,false)" />
         <setting type="lsep" label="32372" />
         <setting id="crefresh" type="bool" label="32373" default="false" />
-        </category>
-        <category label="32345">
-		<setting id="provider.library" type="bool" label="32704" default="true" />
+    </category>
+    <category label="32345">
+        <setting id="provider.library" type="bool" label="32704" default="true" />
         <setting type="sep" />
-		<setting label="Deutsch" type="lsep" />
-		<setting id="provider.alluc-de" type="bool" label="ALLUC.EE" default="false" />
-		<setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
-		<setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
-		<setting id="provider.bs" type="bool" label="BS.TO" default="true" />
-		<setting id="provider.cine" type="bool" label="CINE.TO" default="true" />
-		<setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
-		<setting id="provider.filmpalast" type="bool" label="FILMPALAST.TO" default="true" />
-		<setting id="provider.horrorkino" type="bool" label="FLIMMERSTUBE.COM" default="true" />
-		<setting id="provider.foxx" type="bool" label="FOXX.TO" default="true" />
-		<setting id="provider.hdfilme" type="bool" label="HDFILME.TV" default="true" />
-		<setting id="provider.hdstreams" type="bool" label="HD-STREAMS.ORG" default="false" />
-		<setting id="provider.iload" type="bool" label="ILOAD.TO" default="true" />
-		<setting id="provider.kinodogs" type="bool" label="KINODOGS.TO" default="true" />
-		<setting id="provider.kinoger" type="bool" label="KINOGER.COM" default="true" />
-		<setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
-		<setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
-		<setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
-		<setting id="provider.movie2k-sh" type="bool" label="MOVIE2K.SH" default="true" />
-		<setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
-		<setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
-		<setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
-		<setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
-		<setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
-		<setting id="provider.pureanime" type="bool" label="PURE-ANIME.TV" default="true" />
-		<setting id="provider.serienstream" type="bool" label="SERIENSTREAM.TO" default="false" />
-	    	<setting id="provider.seriesever" type="bool" label="SERIESEVER.NET" default="true" />
-		<setting id="provider.streamdream" type="bool" label="STREAMDREAM.WS" default="true" />
-	    	<setting id="provider.streamit" type="bool" label="STREAMIT.WS" default="true" />
-		<setting id="provider.szene-streamz" type="bool" label="SZENE-STREAMZ.COM" default="true" />
-		<setting id="provider.tata" type="bool" label="TATA.TO" default="true" />
-	    	<setting id="provider.view4u" type="bool" label="VIEW4U.CO" default="true" />
-		<setting type="sep" />
-	</category>
+        <setting label="Deutsch" type="lsep" />
+        <setting id="provider.alluc-de" type="bool" label="ALLUC.EE" default="false" />
+        <setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
+        <setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
+        <setting id="provider.bs" type="bool" label="BS.TO" default="true" />
+        <setting id="provider.cine" type="bool" label="CINE.TO" default="true" />
+        <setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
+        <setting id="provider.filmpalast" type="bool" label="FILMPALAST.TO" default="true" />
+        <setting id="provider.horrorkino" type="bool" label="FLIMMERSTUBE.COM" default="true" />
+        <setting id="provider.foxx" type="bool" label="FOXX.TO" default="true" />
+        <setting id="provider.hdfilme" type="bool" label="HDFILME.TV" default="true" />
+        <setting id="provider.hdstreams" type="bool" label="HD-STREAMS.ORG" default="false" />
+        <setting id="provider.iload" type="bool" label="ILOAD.TO" default="true" />
+        <setting id="provider.kinodogs" type="bool" label="KINODOGS.TO" default="true" />
+        <setting id="provider.kinoger" type="bool" label="KINOGER.COM" default="true" />
+        <setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
+        <setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
+        <setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
+        <setting id="provider.movie2k-sh" type="bool" label="MOVIE2K.SH" default="true" />
+        <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
+        <setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
+        <setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
+        <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
+        <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
+        <setting id="provider.pureanime" type="bool" label="PURE-ANIME.TV" default="true" />
+        <setting id="provider.serienstream" type="bool" label="SERIENSTREAM.TO" default="false" />
+        <setting id="provider.seriesever" type="bool" label="SERIESEVER.NET" default="true" />
+        <setting id="provider.streamdream" type="bool" label="STREAMDREAM.WS" default="true" />
+        <setting id="provider.streamit" type="bool" label="STREAMIT.WS" default="true" />
+        <setting id="provider.szene-streamz" type="bool" label="SZENE-STREAMZ.COM" default="true" />
+        <setting id="provider.tata" type="bool" label="TATA.TO" default="true" />
+        <setting id="provider.tmovie" type="bool" label="TMOVIE.TO" default="true" />
+        <setting id="provider.view4u" type="bool" label="VIEW4U.CO" default="true" />
+        <setting type="sep" />
+    </category>
     <category label="32346">
         <setting type="lsep" label="FANART.TV" />
         <setting type="lsep" label="32582" default="" />
