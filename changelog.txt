@@ -1,5 +1,6 @@
 [B]2.0.7~nighlty3[/B]
 - Update Settings.xml (Trakt)
+- add tmovie
 
 [B]2.0.7~nighlty2[/B]
 - add kinoger
