@@ -1,14 +1,12 @@
-[B]2.0.7~nighlty3[/B]
+[B]2.0.7[/B]
+  28.03.2018
 - Update Settings.xml (Trakt)
 - add tmovie
-
-[B]2.0.7~nighlty2[/B]
 - add kinoger
-
-[B]2.0.7~nighlty1[/B]
 - add Funktion Fehlerhafte Provider erkennen
 
 [B]2.0.6[/B]
+  13.03.2018
 - add szene-streamz
 - Update manager hinzugefügt (lastship.py, string.po)
 - Update settings.xml
@@ -16,6 +14,7 @@
 - Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag
 
 [B]2.0.5[/B]
+  02.03.2018
 - add streamdream Update
 - kinox und HDStreams, default auf AUS
 - Automatisch Fortsetzen
@@ -24,6 +23,7 @@
 - Schnellsuche Eingebaut
 
 [B]2.0.4.1[/B]
+  28.02.2018
 - Neuer TMDB Key
 
 [B]2.0.4[/B]
