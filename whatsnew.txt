@@ -8,15 +8,19 @@ Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 Für die Seiten Serienstream, Seriesever und Alluc ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
-18.03.2018
-Nightly Auto-Update: Neue Funktion Fehlerhafte Provider erkennen
-FAQ Update (Fehlerhafte Provider erkennen)
 13.03.2018
 Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr möglich. Bestehende User können bis zur endgültigen Schließung die Seite weiterhin nutzen
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
 [B][COLOR lime]Changelog plugin.video.lastship[/COLOR][/B]
+
+[B]2.0.7[/B]
+  28.03.2018
+- Update Settings.xml (Trakt)
+- add tmovie
+- add kinoger
+- add Funktion Fehlerhafte Provider erkennen
 
 [B]2.0.6[/B]
   13.03.2018
@@ -35,23 +39,23 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 - Add Funktion nur Premiumquellen (Bezahlquellen) anzeigen
 - Schnellsuche Eingebaut
 
-[B]2.0.4.1[/B]
-  19.02.2018
-- Neuer TMDB Key
-
-[B]2.0.4[/B]    
-  15.02.2018
-- cinentaor entfernt
-- kinow per default deaktiviert
-- lastship.py Code Optimierung (Import Funktion)
-
-
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR] 
   
 [B][COLOR lime]Changelog script.module.lastship[/COLOR][/B]
 
-[B]1.0.6.4[/B]
-13.03.2018
+[B]1.0.6.6[/B]
+  28.03.2018
+- add tmovie and update tmovie
+- Update serienstream auf neue Domain
+- Add kinoger
+- Update source_fault_log.py
+- Update tata
+- Update cleantitle
+- add Funktion Fehlerhafte Provider erkennen und Update alle source_de
+- Update movie2k-sh 
+
+[B]1.0.6.5[/B]
+  13.03.2018
 - add szene-streamz
 - Update Manger hinzugefügt (navigator.py)
 - Update movie2k-ac auf movie2k-sh
@@ -60,28 +64,6 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 - Update player.py  für foxx
 - Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag verfügbar
 
-[B]1.0.6.3[/B]
+[B]1.0.6.4[/B]
   06.03.2018
-- Bug Fix, Downgrade auf 1.0.6.1 Stand
-
-[B]1.0.6.2[/B]
-  06.03.2018
-- Fix Foxx
-
-[B]1.0.6.1[/B] 
-  05.03.2018
-- Fix Streamdream TV-Shows 
-
-[B]1.0.6[/B]   
-  02.03.2018
-- add streamdream Update
-- Update Personen Suche (Filme)
-- Add Option Automatisch Fortsetzen
-- Add Trakt Fortestzungspukt (Bookmarks Function), jedoch zur Zeit in Lastship deaktiviert
-- Add Trakt Angefangene/nicht beendete Episoden Kategorie
-- Add Funktion nur Premium Links (Bezahllinks) anzeigen
-
-[B]1.0.5[/B]    
-  15.02.2018
-- cinenator entfent
-- Update hdfilme
+- New Fix Foxx
