@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lastship" version="2.0.7" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="2.0.7~nightly1" name="Lastship" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.1" />
@@ -30,9 +30,8 @@
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- add tmovie
-- Update Settings.xml (Trakt)
-- add kinoger
-- add Funktion Fehlerhafte Provider erkennen</news>
+		<news>
+			- Improved Performance
+		</news>
 	</extension>
 </addon>
