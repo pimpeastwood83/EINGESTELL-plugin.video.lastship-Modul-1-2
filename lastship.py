@@ -53,9 +53,6 @@ profilefile = open(profile_dir+".txt", "w")
 pr = cProfile.Profile()
 pr.enable()
 
-from resources.lib.modules import source_faultlog as faultlog
-import xbmcgui
-
 name = params.get('name')
 
 title = params.get('title')
@@ -92,7 +89,6 @@ content = params.get('content')
 
 windowedtrailer = params.get('windowedtrailer')
 windowedtrailer = int(windowedtrailer) if windowedtrailer in ("0","1") else 0
-
 
 if action == None:
     from resources.lib.modules import cache
@@ -152,6 +148,8 @@ elif action == 'searchNavigator':
     from resources.lib.indexers import movies
     from resources.lib.modules import control
     from resources.lib.indexers import tvshows
+    import xbmcgui
+
     if not control.setting('search.quick') == '0':
         searchSelect = xbmcgui.Dialog().select(control.lang(32010).encode('utf-8'),
                                                [
@@ -487,6 +485,7 @@ elif action == 'devUpdateNavigator':
     updateManager.updateLastShip()
 
 elif action == 'showFaultyProvider':
+    from resources.lib.modules import source_faultlog as faultlog
     from resources.lib.modules import control
     infoString = faultlog.getFaultInfoString()
     control.dialog.ok("Faulty Providers",infoString)
