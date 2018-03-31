@@ -53,7 +53,6 @@ profilefile = open(profile_dir+".txt", "w")
 pr = cProfile.Profile()
 pr.enable()
 
-from resources.lib.modules import updateManager
 from resources.lib.modules import source_faultlog as faultlog
 import xbmcgui
 
