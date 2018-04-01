@@ -1,5 +1,5 @@
 [B]2.0.8~nightly1[/B]
-- ipmort von xbmc und faultlog an andere Codeposition verschoben
+- Geschwindigkeits Verbesserung 
 
 [B]2.0.7[/B]
   28.03.2018
