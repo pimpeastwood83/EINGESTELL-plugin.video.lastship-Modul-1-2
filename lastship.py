@@ -28,12 +28,12 @@ import xbmc
 import xbmcaddon
 
 addonInfo = xbmcaddon.Addon().getAddonInfo
-dataPath = xbmc.translatePath(addonInfo('path')).decode('utf-8')
+dataPath = xbmc.translatePath(addonInfo('profile')).decode('utf-8')
 
 if '/' in dataPath:
-    profile_dir = dataPath+"/profile_faster_"
+    profile_dir = dataPath+"/lastship_profile_"
 else:
-    profile_dir = dataPath+"\\profile_faster_"
+    profile_dir = dataPath+"\\lastship_profile_"
 
 
 print profile_dir
@@ -250,6 +250,10 @@ elif action == 'movieUserlists':
     from resources.lib.indexers import movies
     movies.movies().userlists()
 
+elif action == 'moviePostloadAndPlay':
+    from resources.lib.indexers import movies
+    movies.movies().LoadAndPlay(tmdb,meta)
+
 elif action == 'channels':
     from resources.lib.indexers import channels
     channels.channels().get()
@@ -384,6 +388,7 @@ elif action == 'download':
 
 elif action == 'play':
     from resources.lib.modules import sources
+
     sources.sources().play(title, year, imdb, tvdb, season, episode, tvshowtitle, premiered, meta, select)
 
 elif action == 'addItem':
@@ -489,6 +494,7 @@ elif action == 'showFaultyProvider':
     from resources.lib.modules import control
     infoString = faultlog.getFaultInfoString()
     control.dialog.ok("Faulty Providers",infoString)
+
 
 
 pr.disable()
