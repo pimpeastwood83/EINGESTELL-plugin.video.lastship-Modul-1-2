@@ -1,3 +1,6 @@
+[B]2.0.8~nightly2[/B]
+- TMDB Suche Update
+
 [B]2.0.8~nightly1[/B]
 - Geschwindigkeits Verbesserung 
 
