@@ -991,3 +991,19 @@ msgstr "Amount of errors for disable"
 msgctxt "#32713"
 msgid "FaultLogger recheck after"
 msgstr "recheck deactivated provider after"
+
+msgctxt "#32714"
+msgid "AddInfo from"
+msgstr "Get additional info for films"
+
+msgctxt "#32715"
+msgid "AddInfo disabled"
+msgstr "Disabled"
+
+msgctxt "#32716"
+msgid "AddInfo TMDB"
+msgstr "TMDB"
+
+msgctxt "#32717"
+msgid "AddInfo TMDB & Trakt"
+msgstr "TMDB & Trakt.tv"

@@ -996,3 +996,19 @@ msgstr "Anzahl Errors für Deaktivierung"
 msgctxt "#32713"
 msgid "FaultLogger recheck after"
 msgstr "Deaktivierten Provider überprüfen nach Stunden"
+
+msgctxt "#32714"
+msgid "AddInfo from"
+msgstr "Zusatzinfos für Filme holen"
+
+msgctxt "#32715"
+msgid "AddInfo disabled"
+msgstr "AUS"
+
+msgctxt "#32716"
+msgid "AddInfo TMDB"
+msgstr "TMDB"
+
+msgctxt "#32717"
+msgid "AddInfo TMDB & Trakt"
+msgstr "TMDB & Trakt.tv"
