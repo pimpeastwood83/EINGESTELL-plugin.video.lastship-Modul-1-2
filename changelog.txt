@@ -1,5 +1,5 @@
 [B]2.0.8~nightly4[/B]
-- Downgrade auf nightly3
+- Downgrade auf nightly2
 
 [B]2.0.8~nightly3[/B]
 - Update settings (movies extrainfos)
