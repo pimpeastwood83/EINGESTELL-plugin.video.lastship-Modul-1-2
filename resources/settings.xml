@@ -12,7 +12,7 @@
         <setting id="providers.lang" type="select" label="32360" values="German" default="German" />
         <setting id="flatten.tvshows" type="bool" label="32317" default="false" />
         <setting id="fanart" type="bool" label="32318" default="true" />
-        <setting id="movies.extrainfo" type="enum" label="32714" lvalues="32715|32716|32717" default="1" />
+        <setting id="movies.extrainfo" type="enum" label="32714" lvalues="32715|32716|32717" default="1" visible="false" />
         <setting id="showunaired" type="bool" label="32570" default="true" />
         <setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
         <setting id="hidecinema" type="bool" label="32571" default="false" />
