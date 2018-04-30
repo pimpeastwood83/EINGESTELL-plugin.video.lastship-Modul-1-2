@@ -5,7 +5,7 @@ FAQ und Hilfe bekommt Ihr in unserem Forum: http://lastship.square7.ch/forum
 Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 
 [B]INFO Indexseiten:[/B]
-Für die Seiten Serienstream, Seriesever und Alluc ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
+Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
 28.03.2018
@@ -17,6 +17,11 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
 [B][COLOR lime]Changelog plugin.video.lastship[/COLOR][/B]
+
+[B]2.0.8[/B]
+  30.04.2018
+- TMDB Suche Update
+- Geschwindigkeits Verbesserung 
 
 [B]2.0.7[/B]
   28.03.2018
@@ -33,18 +38,23 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 - movie2z entfernt (Seite wurde geschlossen)
 - Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag
 
-[B]2.0.5[/B]
-  02.03.2018
-- add streamdream Update
-- kinox und HDStreams, default auf AUS
-- Automatisch Fortsetzen
-- Trakt Fortsetzungspunkt (Bookmark), derzeit deaktiviert
-- Add Funktion nur Premiumquellen (Bezahlquellen) anzeigen
-- Schnellsuche Eingebaut
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR] 
   
 [B][COLOR lime]Changelog script.module.lastship[/COLOR][/B]
+
+[B]1.0.6.7[/B]
+  30.04.2018
+- cfscraper update
+- HDStreams Update
+- TMDB Suche Update
+- QuickFix 4K Quellen finden 
+- Fix kinow
+- Fix Foxx
+- Update Kinoger
+- Update view4u
+- Update movie4k (Add Serien und Suche optimiert)
+- Merged from Performance Branch
 
 [B]1.0.6.6[/B]
   28.03.2018
@@ -66,7 +76,3 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 - Upadate Foxx Suche
 - Update player.py  für foxx
 - Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag verfügbar
-
-[B]1.0.6.4[/B]
-  06.03.2018
-- New Fix Foxx
