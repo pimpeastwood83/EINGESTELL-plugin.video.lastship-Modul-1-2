@@ -1,13 +1,6 @@
-[B]2.0.8~nightly4[/B]
-- Downgrade auf nightly2
-
-[B]2.0.8~nightly3[/B]
-- Update settings (movies extrainfos)
-
-[B]2.0.8~nightly2[/B]
+[B]2.0.8[/B]
+  30.04.2018
 - TMDB Suche Update
-
-[B]2.0.8~nightly1[/B]
 - Geschwindigkeits Verbesserung 
 
 [B]2.0.7[/B]
