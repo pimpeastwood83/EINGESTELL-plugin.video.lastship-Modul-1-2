@@ -18,6 +18,10 @@ Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr
 
 [B][COLOR lime]Changelog plugin.video.lastship[/COLOR][/B]
 
+[B]2.0.8.1[/B]
+  01.05.2018
+- Profiling entfernt (Bug Fix)
+
 [B]2.0.8[/B]
   30.04.2018
 - TMDB Suche Update
