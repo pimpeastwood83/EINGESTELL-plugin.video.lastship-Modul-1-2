@@ -1,3 +1,6 @@
+[B]2.0.9~nightly1[/B]
+- Profiling entfernt
+
 [B]2.0.8[/B]
   30.04.2018
 - TMDB Suche Update
