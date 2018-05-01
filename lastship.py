@@ -22,36 +22,11 @@
 # Addon id: plugin.video.lastship
 # Addon Provider: LastShip
 
-
 import urlparse,sys,urllib
-import xbmc
-import xbmcaddon
-
-addonInfo = xbmcaddon.Addon().getAddonInfo
-dataPath = xbmc.translatePath(addonInfo('profile')).decode('utf-8')
-
-if '/' in dataPath:
-    profile_dir = dataPath+"/lastship_profile_"
-else:
-    profile_dir = dataPath+"\\lastship_profile_"
-
-
-print profile_dir
 
 params = dict(urlparse.parse_qsl(sys.argv[2].replace('?','')))
 
 action = params.get('action')
-
-if action is not None:
-    profile_dir += action
-else:
-    profile_dir += "main"
-
-import cProfile, pstats
-
-profilefile = open(profile_dir+".txt", "w")
-pr = cProfile.Profile()
-pr.enable()
 
 name = params.get('name')
 
@@ -494,10 +469,3 @@ elif action == 'showFaultyProvider':
     from resources.lib.modules import control
     infoString = faultlog.getFaultInfoString()
     control.dialog.ok("Faulty Providers",infoString)
-
-
-
-pr.disable()
-ps = pstats.Stats(pr, stream=profilefile)
-ps.sort_stats('cumulative', 'calls')
-ps.print_stats(10)
