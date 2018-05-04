@@ -6,8 +6,16 @@ Unser Chatroom: https://gitter.im/Lastship_Chat/Lobby
 
 [B]INFO Indexseiten:[/B]
 Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweiligen Betreiberseite erforderlich (kann auch Wegwerf E-Mailadresse sein)
+Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
+
+04.05.2018
+Neues in der Nightly Version:
+- add vodhd
+- add movie-gg
+- add moovie
+
 28.03.2018
 Metahandler Update v3.0.2.1 (API Keys erneuert)
 
