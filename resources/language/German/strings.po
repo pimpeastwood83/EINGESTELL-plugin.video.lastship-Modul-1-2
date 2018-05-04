@@ -1012,3 +1012,7 @@ msgstr "TMDB"
 msgctxt "#32717"
 msgid "AddInfo TMDB & Trakt"
 msgstr "TMDB & Trakt.tv"
+
+msgctxt "#32718"
+msgid "Server IP"
+msgstr "Server IP"
