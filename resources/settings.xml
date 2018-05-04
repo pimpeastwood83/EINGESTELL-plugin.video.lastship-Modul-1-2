@@ -79,9 +79,11 @@
         <setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
         <setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
         <setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
+		<setting id="provider.moovie" type="bool" label="MOOVIE" default="true" />
         <setting id="provider.movie2k-sh" type="bool" label="MOVIE2K.SH" default="true" />
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
         <setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
+		<setting id="provider.movie-gg" type="bool" label="MOVIE-GG" default="true" />
         <setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
         <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
@@ -94,6 +96,7 @@
         <setting id="provider.tata" type="bool" label="TATA.TO" default="true" />
         <setting id="provider.tmovie" type="bool" label="TMOVIE.TO" default="true" />
         <setting id="provider.view4u" type="bool" label="VIEW4U.CO" default="true" />
+		<setting id="provider.vodhd" type="bool" label="VODHD.TO" default="false" />
         <setting type="sep" />
     </category>
     <category label="32346">
@@ -116,19 +119,7 @@
         <setting type="lsep" label="32538" />
         <setting type="lsep" label="32539" />
         <setting id="open_smu_settings" type="action" label="32540" enable="true" option="close" action="RunPlugin(plugin://plugin.video.lastship/?action=urlResolver)" />
-        <setting type="sep" />
-        <setting type="lsep" label="Moviesplanet.is" />
-        <setting id="moviesplanet.user" type="text" label="32303" default="" />
-        <setting id="moviesplanet.pass" type="text" option="hidden" label="32307" default="" />
-        <setting type="sep" />
-        <setting type="lsep" label="Streamlord.com" />
-        <setting id="streamlord.user" type="text" label="32303" default="" />
-        <setting id="streamlord.pass" type="text" option="hidden" label="32307" default="" />
-        <setting type="sep" />
-        <setting type="lsep" label="Ororo.tv" />
-        <setting id="ororo.user" type="text" label="32304" default="" />
-        <setting id="ororo.pass" type="text" option="hidden" label="32307" default="" />
-        <setting type="sep" />
+        <setting type="sep" />        
         <setting type="lsep" label="SerienStream.to" />
         <setting id="serienstream.user" type="text" label="32304" default="" />
         <setting id="serienstream.pass" type="text" label="32307" default="" />
@@ -141,6 +132,11 @@
         <setting id="alluc.api" type="text" label="32309" default="" />
         <setting id="alluc.limit" type="labelenum" label="32581" default="10" values="10|20|30|40|50|60|70|80|90|100|150|200" />
         <setting id="alluc.download" type="bool" label="32009" default="false" />
+		<setting type="lsep" label="vodhd.to" />
+		<setting id="vodhd.user" type="text" label="32303" default="" />
+		<setting id="vodhd.pass" type="text" label="32307" option="hidden" default="" />
+		<setting id="vodhd.server" type="text" label="32718" default="" />
+		<setting type="sep" />
     </category>
     <category label="32541">
         <setting id="library.movie" type="folder" label="32543" default="special://userdata/addon_data/plugin.video.lastship/Movies" />
