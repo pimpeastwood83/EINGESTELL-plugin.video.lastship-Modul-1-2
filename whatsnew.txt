@@ -10,6 +10,9 @@ Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Sei
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
 
+14.05.2018
+VodHD wird jetzt als Premium Anbieter erkannt und auch farblich dargestellt (wenn es von Euch eingestellt wurde)
+
 12.05.2018
 Bs.to zur Zeit nicht funktionsfähig. Der Seitenbetreiber hat den API Key geändert und Captcha eingeführt.
 Ob sich eine Lösung finden wird ist offen
@@ -19,12 +22,6 @@ Neues in der Nightly Version:
 - add vodhd
 - add movie-gg
 - add moovie
-
-28.03.2018
-Metahandler Update v3.0.2.1 (API Keys erneuert)
-
-13.03.2018
-Der Anbieter Alluc schließt seine Seite. Eine neue Registrierung ist nicht mehr möglich. Bestehende User können bis zur endgültigen Schließung die Seite weiterhin nutzen
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR]
 
