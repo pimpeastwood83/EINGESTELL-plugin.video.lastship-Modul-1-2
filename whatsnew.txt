@@ -11,6 +11,7 @@ Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Sei
 [B][COLOR blue]Aktuelles[/COLOR][/B]
 
 14.05.2018
+Nightly:
 VodHD wird jetzt als Premium Anbieter erkannt und auch farblich dargestellt (wenn es von Euch eingestellt wurde)
 
 12.05.2018
