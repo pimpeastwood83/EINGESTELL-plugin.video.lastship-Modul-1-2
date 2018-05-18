@@ -10,6 +10,10 @@ Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Sei
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
 
+18.05.2018
+Nightly:
+Bs.to und alluc.ee entfernt
+
 14.05.2018
 Nightly:
 VodHD wird jetzt als Premium Anbieter erkannt und auch farblich dargestellt (wenn es von Euch eingestellt wurde)
