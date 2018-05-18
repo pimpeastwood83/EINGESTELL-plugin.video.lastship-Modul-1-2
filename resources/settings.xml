@@ -62,10 +62,8 @@
         <setting id="provider.library" type="bool" label="32704" default="true" />
         <setting type="sep" />
         <setting label="Deutsch" type="lsep" />
-        <setting id="provider.alluc-de" type="bool" label="ALLUC.EE" default="false" />
         <setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
         <setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
-        <setting id="provider.bs" type="bool" label="BS.TO" default="true" />
         <setting id="provider.cine" type="bool" label="CINE.TO" default="true" />
         <setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
         <setting id="provider.filmpalast" type="bool" label="FILMPALAST.TO" default="true" />
@@ -79,11 +77,11 @@
         <setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
         <setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
         <setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
-		<setting id="provider.moovie" type="bool" label="MOOVIE" default="true" />
+	<setting id="provider.moovie" type="bool" label="MOOVIE" default="true" />
         <setting id="provider.movie2k-sh" type="bool" label="MOVIE2K.SH" default="true" />
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
         <setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
-		<setting id="provider.movie-gg" type="bool" label="MOVIE-GG" default="true" />
+	<setting id="provider.movie-gg" type="bool" label="MOVIE-GG" default="true" />
         <setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
         <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
@@ -96,7 +94,7 @@
         <setting id="provider.tata" type="bool" label="TATA.TO" default="true" />
         <setting id="provider.tmovie" type="bool" label="TMOVIE.TO" default="true" />
         <setting id="provider.view4u" type="bool" label="VIEW4U.CO" default="true" />
-		<setting id="provider.vodhd" type="bool" label="VODHD.TO" default="false" />
+	<setting id="provider.vodhd" type="bool" label="VODHD.TO" default="false" />
         <setting type="sep" />
     </category>
     <category label="32346">
