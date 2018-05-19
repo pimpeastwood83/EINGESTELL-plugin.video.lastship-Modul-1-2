@@ -229,10 +229,6 @@ elif action == 'moviePostloadAndPlay':
     from resources.lib.indexers import movies
     movies.movies().LoadAndPlay(tmdb,meta)
 
-elif action == 'channels':
-    from resources.lib.indexers import channels
-    channels.channels().get()
-
 elif action == 'tvshows':
     from resources.lib.indexers import tvshows
     tvshows.tvshows().get(url)

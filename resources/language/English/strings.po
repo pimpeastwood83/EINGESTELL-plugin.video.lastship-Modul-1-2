@@ -40,10 +40,6 @@ msgctxt "#32006"
 msgid "New Episodes"
 msgstr ""
 
-msgctxt "#32007"
-msgid "Channels"
-msgstr ""
-
 msgctxt "#32008"
 msgid "Tools"
 msgstr ""
