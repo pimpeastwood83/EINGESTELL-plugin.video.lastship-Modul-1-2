@@ -9,6 +9,9 @@ Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweilige
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
+19.05.2018
+Nightly:
+Kategorie Kanäle (Channels) entfernt (API Key wurde geändert)
 
 18.05.2018
 Nightly:
