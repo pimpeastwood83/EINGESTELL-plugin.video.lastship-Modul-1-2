@@ -1,3 +1,6 @@
+[B]2.0.8.2~nightly3[/B]
+- Kategorie Kanäle (Channels) entfernt
+
 [B]2.0.8.2~nightly2[/B]
 - bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
 
