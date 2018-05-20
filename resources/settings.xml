@@ -64,7 +64,6 @@
         <setting label="Deutsch" type="lsep" />
         <setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
         <setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
-        <setting id="provider.cine" type="bool" label="CINE.TO" default="true" />
         <setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
         <setting id="provider.filmpalast" type="bool" label="FILMPALAST.TO" default="true" />
         <setting id="provider.horrorkino" type="bool" label="FLIMMERSTUBE.COM" default="true" />
@@ -85,7 +84,6 @@
         <setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
         <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
-        <setting id="provider.pureanime" type="bool" label="PURE-ANIME.TV" default="true" />
         <setting id="provider.serienstream" type="bool" label="SERIENSTREAM.TO" default="true" />
         <setting id="provider.seriesever" type="bool" label="SERIESEVER.NET" default="true" />
         <setting id="provider.streamdream" type="bool" label="STREAMDREAM.WS" default="true" />
