@@ -1,3 +1,7 @@
+[B]2.0.8.2~nightly4[/B]
+- cine.to entfernt (Captcha)
+- Pure-Anime.tv (Seite gibt es nicht mehr)
+
 [B]2.0.8.2~nightly3[/B]
 - Kategorie Kanäle (Channels) entfernt
 
