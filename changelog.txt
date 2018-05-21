@@ -1,3 +1,6 @@
+[B]2.0.8.2~nightly5[/B]
+- Alluc Konto entfernt
+
 [B]2.0.8.2~nightly4[/B]
 - cine.to entfernt (Captcha)
 - Pure-Anime.tv (Seite gibt es nicht mehr)
