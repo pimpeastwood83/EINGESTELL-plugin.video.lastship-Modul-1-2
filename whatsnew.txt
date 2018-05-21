@@ -9,6 +9,10 @@ Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweilige
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
+21.05.2018
+Nightly:
+Alluc Konto entfernt aus den Einstellungen
+
 20.05.2018
 Nightly:
 cine.to entfernt (Captcha)
