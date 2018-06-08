@@ -1,3 +1,6 @@
+[B]2.0.8.3~nightly1[/B]
+- Add Amazon
+
 [B]2.0.8.2[/B]
   08.06.2018
 - Update movie2k-sh
