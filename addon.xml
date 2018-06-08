@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lastship" version="2.0.8.2~nightly5" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="2.0.8.2~nightly6" name="Lastship" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.1" />
@@ -30,7 +30,9 @@
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>	- Alluc Konto entfernt
+		<news>	- Update movie2k-sh
+			- Add movie4k-lt
+			- Alluc Konto entfernt
 			- cine.to entfernt (Captcha)
 			- Pure-Anime.tv (Seite gibt es nicht mehr)
 			- Kategorie Channels entfernt
