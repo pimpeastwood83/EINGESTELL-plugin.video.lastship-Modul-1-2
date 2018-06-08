@@ -62,7 +62,7 @@
         <setting id="provider.library" type="bool" label="32704" default="true" />
         <setting type="sep" />
         <setting label="Deutsch" type="lsep" />
-	<setting id="provider.amazon" type="bool" label="AMAZON.DE" default="false" />
+	<setting id="provider.amazon" type="bool" label="AMAZON.DE (Testen und Feedback bitte)" default="false" />
         <setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
         <setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
         <setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
