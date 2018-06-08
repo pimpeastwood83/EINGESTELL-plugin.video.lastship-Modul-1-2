@@ -9,6 +9,20 @@ Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweilige
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
+08.06.2018
+Nightly:
+
+In der Nightly befindet sich jetzt der erste legale Streaming Anbieter, Amazon
+Dieser Anbieter ist als Standard "DEAKTIVIERT", da er NUR mit einem gültigen Amazon Prime Video Konto funktioniert
+
+Ebenso ist es zur Zeit (noch) nicht möglich, Amazon mit Kodi 18 zu nutzen
+
+Um Amazon in Lastship verwenden zu können ist folgendes zwingend notwendig:
+
+Es muss das Video Addon AmazonVOD, vom Sandmann Repo, installiert sein, da Lastship über dieses Addon arbeitet
+Das Sandmann Repo bekommt man hier: https://github.com/Sandmann79/xbmc/blob/master/packages/repository.sandmann79.plugins/repository.sandmann79.plugins-1.0.2.zip
+
+
 12.05.2018
 Bs.to zur Zeit nicht funktionsfähig. Der Seitenbetreiber hat den API Key geändert und Captcha eingeführt
 Ob sich eine Lösung finden wird ist offen
