@@ -1,21 +1,12 @@
-[B]2.0.8.2~nightly6[/B]
+[B]2.0.8.2[/B]
+  08.06.2018
 - Update movie2k-sh
 - Add movie4k-lt
-
-[B]2.0.8.2~nightly5[/B]
 - Alluc Konto entfernt
-
-[B]2.0.8.2~nightly4[/B]
 - cine.to entfernt (Captcha)
 - Pure-Anime.tv (Seite gibt es nicht mehr)
-
-[B]2.0.8.2~nightly3[/B]
 - Kategorie Kanäle (Channels) entfernt
-
-[B]2.0.8.2~nightly2[/B]
 - bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
-
-[B]2.0.8.2~nightly1[/B]
 - add vodhd
 - add movie-gg
 - add moovie
