@@ -1,3 +1,7 @@
+[B]2.0.8.2~nightly6[/B]
+- Update movie2k-sh
+- Add movie4k-lt
+
 [B]2.0.8.2~nightly5[/B]
 - Alluc Konto entfernt
 
