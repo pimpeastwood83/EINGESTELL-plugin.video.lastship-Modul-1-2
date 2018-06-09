@@ -17,6 +17,8 @@ Dieser Anbieter ist als Standard "DEAKTIVIERT", da er NUR mit einem gültigen Am
 
 Ebenso ist es zur Zeit (noch) nicht möglich, Amazon mit Kodi 18 zu nutzen
 
+Und eine weiter Einschränkung ist, zur Zeit KEINE Inputstream Funktion in Kodi 17
+
 Um Amazon in Lastship verwenden zu können ist folgendes zwingend notwendig:
 
 Es muss das Video Addon AmazonVOD, vom Sandmann Repo, installiert sein, da Lastship über dieses Addon arbeitet
