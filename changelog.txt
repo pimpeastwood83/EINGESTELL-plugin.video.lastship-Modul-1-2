@@ -1,3 +1,6 @@
+[B]2.0.8.4~nightly1[/B]
+- Add Amazon
+
 [B]2.0.8.3[/B]
   15.06.2018
 - TMovie entfernt 
