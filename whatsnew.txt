@@ -9,7 +9,7 @@ Für die Seiten Serienstream, Seriesever ist ein Benutzerkonto auf der jeweilige
 Die Seite VodHD ist Standardmäßig deaktiviert, da diese Seite eine Premium Seite ist, dass heißt es muss für die Nutzung bezahlt werden. Infos zu Bezahlung und Anmeldung auf https://vodhd.to/
 
 [B][COLOR blue]Aktuelles[/COLOR][/B]
-08.06.2018
+15.06.2018
 Nightly:
 
 In der Nightly befindet sich jetzt der erste legale Streaming Anbieter, Amazon
@@ -33,34 +33,57 @@ Ob sich eine Lösung finden wird ist offen
 
 [B][COLOR lime]Changelog plugin.video.lastship[/COLOR][/B]
 
-[B]2.0.8.1[/B]
-  01.05.2018
-- Profiling entfernt (Bug Fix)
+[B]2.0.8.3[/B]
+  15.06.2018
+- TMovie entfernt 
 
-[B]2.0.8[/B]
-  30.04.2018
-- TMDB Suche Update
-- Geschwindigkeits Verbesserung 
-
-[B]2.0.7[/B]
-  28.03.2018
-- Update Settings.xml (Trakt)
-- add tmovie
-- add kinoger
-- add Funktion Fehlerhafte Provider erkennen
-
-[B]2.0.6[/B]
-  13.03.2018
-- add szene-streamz
-- Update manager hinzugefügt (lastship.py, string.po)
-- Update settings.xml
-- movie2z entfernt (Seite wurde geschlossen)
-- Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag
-
+[B]2.0.8.2[/B]
+  08.06.2018
+- Update movie2k-sh
+- Add movie4k-lt
+- Alluc Konto entfernt
+- cine.to entfernt (Captcha)
+- Pure-Anime.tv (Seite gibt es nicht mehr)
+- Kategorie Kanäle (Channels) entfernt
+- bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
+- add vodhd
+- add movie-gg
+- add moovie
+- Update string.po
 
 [COLOR orange]-------------------------------------------------------------------------------------------------------[/COLOR] 
   
 [B][COLOR lime]Changelog script.module.lastship[/COLOR][/B]
+
+[B]1.0.6.9[/B]
+  15.06.2018
+- TMovie entfernt
+- Update cleantitle.py (Umlaute Update)
+- Update Provider-Fault-Logging und source_faultlog.py for New Logging (Update Fehlerhafte Provider melden)
+- Fix Foxx
+- Fix Filmpalast (Fix Suche)
+- Fix/Update Animeloads 
+
+[B]1.0.6.8[/B]
+ 08.06.2018
+- Update foxx
+- Upate movie2k-sh (Neue Domain movie2k-sc)
+- Update movie4k
+- Add movie4k-lt
+-  Update animeloads
+- cine.to entfernt (Captcha)
+- Pure-Anime.tv (Seite gibt es nicht mehr)
+- Kategorie Kanäle (Channels) entfernt
+- bs.to (Captcha und API changed) und alluc.ee (Seite stillgelegt) entfernt
+- Update sources.py (VodHD als Premium erkennen)
+- Update VodHD
+- Fix Serienstream
+- Fix Filme älter als 90 Tage (90 Day deleay)
+- Fix HidenCinema
+- Code Optimierung
+- add vodhd
+- add movie-gg
+- add moovie 
 
 [B]1.0.6.7[/B]
   30.04.2018
@@ -74,24 +97,3 @@ Ob sich eine Lösung finden wird ist offen
 - Update view4u
 - Update movie4k (Add Serien und Suche optimiert)
 - Merged from Performance Branch
-
-[B]1.0.6.6[/B]
-  28.03.2018
-- add tmovie and update tmovie
-- Update serienstream auf neue Domain
-- Add kinoger
-- Update source_fault_log.py
-- Update tata
-- Update cleantitle
-- add Funktion Fehlerhafte Provider erkennen und Update alle source_de
-- Update movie2k-sh 
-
-[B]1.0.6.5[/B]
-  13.03.2018
-- add szene-streamz
-- Update Manger hinzugefügt (navigator.py)
-- Update movie2k-ac auf movie2k-sh
-- movie2z entfernt (Seite wurde geschlossen)
-- Upadate Foxx Suche
-- Update player.py  für foxx
-- Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag verfügbar
