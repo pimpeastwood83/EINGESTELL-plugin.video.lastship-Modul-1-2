@@ -87,7 +87,6 @@
         <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
         <setting id="provider.serienstream" type="bool" label="SERIENSTREAM.TO" default="true" />
-        <setting id="provider.seriesever" type="bool" label="SERIESEVER.NET" default="true" />
         <setting id="provider.streamdream" type="bool" label="STREAMDREAM.WS" default="true" />
         <setting id="provider.streamit" type="bool" label="STREAMIT.WS" default="true" />
         <setting id="provider.szene-streamz" type="bool" label="SZENE-STREAMZ.COM" default="true" />
