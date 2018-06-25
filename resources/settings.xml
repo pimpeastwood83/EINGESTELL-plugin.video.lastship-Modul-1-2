@@ -62,7 +62,7 @@
         <setting id="provider.library" type="bool" label="32704" default="true" />
         <setting type="sep" />
         <setting label="Deutsch" type="lsep" />
-	<setting id="provider.amazon" type="bool" label="AMAZON.DE (Testen und Feedback bitte)" default="false" />
+        <setting id="provider.amazon" type="bool" label="AMAZON.DE (Testen und Feedback bitte)" default="false" />
         <setting id="provider.animebase" type="bool" label="ANIMEBASE.NET" default="true" />
         <setting id="provider.animeloads" type="bool" label="ANIMELOADS.ORG" default="true" />
         <setting id="provider.ddl" type="bool" label="DDL.ME" default="true" />
@@ -70,6 +70,7 @@
         <setting id="provider.horrorkino" type="bool" label="FLIMMERSTUBE.COM" default="true" />
         <setting id="provider.foxx" type="bool" label="FOXX.TO" default="true" />
         <setting id="provider.hdfilme" type="bool" label="HDFILME.TV" default="true" />
+        <setting id="provider.hdkino" type="bool" label="HDKINO.TO" default="true" />
         <setting id="provider.hdstreams" type="bool" label="HD-STREAMS.ORG" default="false" />
         <setting id="provider.iload" type="bool" label="ILOAD.TO" default="true" />
         <setting id="provider.kinodogs" type="bool" label="KINODOGS.TO" default="true" />
@@ -77,12 +78,12 @@
         <setting id="provider.kinoking" type="bool" label="KINOKING.TO" default="true" />
         <setting id="provider.kinow" type="bool" label="KINOW.TO" default="false" />
         <setting id="provider.kinox" type="bool" label="KINOX.TO" default="false" />
-	<setting id="provider.moovie" type="bool" label="MOOVIE" default="true" />
+        <setting id="provider.moovie" type="bool" label="MOOVIE" default="true" />
         <setting id="provider.movie2k-sc" type="bool" label="MOVIE2K.SC" default="true" />
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K.AG" default="true" />
         <setting id="provider.movie4k" type="bool" label="MOVIE4K.TO" default="true" />
-	<setting id="provider.movie4k-lt" type="bool" label="MOVIE4K.LT" default="true" />
-	<setting id="provider.movie-gg" type="bool" label="MOVIE-GG" default="true" />
+        <setting id="provider.movie4k-lt" type="bool" label="MOVIE4K.LT" default="true" />
+        <setting id="provider.movie-gg" type="bool" label="MOVIE-GG" default="true" />
         <setting id="provider.movietown" type="bool" label="MOVIETOWN.ORG" default="true" />
         <setting id="provider.netzkino" type="bool" label="NETZKINO.DE" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER.ME" default="true" />
@@ -92,7 +93,7 @@
         <setting id="provider.szene-streamz" type="bool" label="SZENE-STREAMZ.COM" default="true" />
         <setting id="provider.tata" type="bool" label="TATA.TO" default="true" />
         <setting id="provider.view4u" type="bool" label="VIEW4U.CO" default="true" />
-	<setting id="provider.vodhd" type="bool" label="VODHD.TO" default="false" />
+        <setting id="provider.vodhd" type="bool" label="VODHD.TO" default="false" />
         <setting type="sep" />
     </category>
     <category label="32346">
@@ -124,11 +125,11 @@
         <setting id="seriesever.user" type="text" label="32303" default="" />
         <setting id="seriesever.pass" type="text" label="32307" default="" />
         <setting type="sep" />
-	<setting type="lsep" label="vodhd.to" />
-	<setting id="vodhd.user" type="text" label="32303" default="" />
-	<setting id="vodhd.pass" type="text" label="32307" option="hidden" default="" />
-	<setting id="vodhd.server" type="text" label="32718" default="" />
-	<setting type="sep" />
+        <setting type="lsep" label="vodhd.to" />
+        <setting id="vodhd.user" type="text" label="32303" default="" />
+        <setting id="vodhd.pass" type="text" label="32307" option="hidden" default="" />
+        <setting id="vodhd.server" type="text" label="32718" default="" />
+        <setting type="sep" />
     </category>
     <category label="32541">
         <setting id="library.movie" type="folder" label="32543" default="special://userdata/addon_data/plugin.video.lastship/Movies" />
