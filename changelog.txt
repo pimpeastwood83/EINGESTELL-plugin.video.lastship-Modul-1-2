@@ -1,3 +1,6 @@
+[B]2.0.8.4~nightly4[/B]
+- Add Cinemaxx
+
 [B]2.0.8.4~nightly3[/B]
 - Add HDKino
 
